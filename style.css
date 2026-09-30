@@ -1,3 +1,5 @@
+/*THIS IS MY CSS TEMPLATE */
+
 /*
 This is a good layout for a mobile-first CSS template.
 Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
@@ -11,6 +13,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 *********************************************************************/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 
+
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
 *********************************************************************/
@@ -18,11 +21,60 @@ You will find this is far easier than the opposite task of using CSS to cram you
     box-sizing: border-box;
 }
 
+
+
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-family: "Lexend", sans-serif;
+     font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
+figcaption {
+  color: grey;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h6 {
+  color: grey;
+
+
+}
+
+h1, h6{
+      text-align: center;
+          margin: auto;
+}
+
+figure {
+  max-width: 600px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.text{
+  margin:auto;
+  margin-top: 20px;
+  background-color: wheat;
+  padding:20px;
+  max-width:600px;
+
+}
+
+.blue-text {
+  color: blue;
+ }
+
+.red-text {
+  color: red;
+ }
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
